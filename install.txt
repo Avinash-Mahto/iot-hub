@@ -1,0 +1,12 @@
+# 1. Create and activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# 2. Install Python packages
+pip install boto3 paho-mqtt
+
+# 3. Install system-level tools (on Debian/Ubuntu)
+sudo apt update
+sudo apt install fswebcam vlc lsof
+
+#aws Configure
